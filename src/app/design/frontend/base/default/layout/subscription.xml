@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <downloadable_customer_products translate="label">
+        <remove name="downloadable_customer_products_list"/>
+        <reference name="my.account.wrapper">
+            <block type="downloadable/customer_products_list" name="subs_download" template="subscription/list.phtml" />
+        </reference>
+    </downloadable_customer_products>
+</layout>
